@@ -24,6 +24,6 @@ def main():
     print(f"    \"postal\": \"{ip_info['postal']}\",")
     print(f"    \"timezone\": \"{ip_info['timezone']}\"")
     print("}")
-
+    time.sleep(600)
 if __name__ == "__main__":
     main()
