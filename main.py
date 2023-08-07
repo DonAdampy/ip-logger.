@@ -1,5 +1,6 @@
 import requests
 from colorama import Fore
+import time
 
 def get_ip_info(ip_address, token):
     url = f"https://ipinfo.io/{ip_address}?token={token}"
